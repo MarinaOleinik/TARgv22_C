@@ -5,6 +5,19 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>TARgv22_C.Start</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\marina.oleinik\source\repos\TARgv22_C\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\marina.oleinik\source\repos\TARgv22_C\.editorconfig" />
+  </ItemGroup>
 
 </Project>
