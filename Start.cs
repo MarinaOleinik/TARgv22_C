@@ -43,6 +43,7 @@ namespace TARgv22_C
                 Console.WriteLine("Looma nimi: ");
                 loomad.Add(i + 1, new Loom() { Nimi = Console.ReadLine() });
             }
+            
             foreach (Loom item in loomad.Values)
             {
                 Console.WriteLine(item.Nimi);
